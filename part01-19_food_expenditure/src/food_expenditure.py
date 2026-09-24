@@ -1,0 +1,6 @@
+x = int(input("How many times a week do you eat at the studen cafeteria?"))
+y = float(input("The price of a typical studen lunch?"))
+z = float(input("How much money do you spend on groceries in a week?"))
+print("Average food expenditure:")
+print(f"Daily: {(x*y+z)/7} euros")
+print(f"Weekly: {x*y+z} euros")
